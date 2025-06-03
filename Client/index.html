@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="main">
+    
+<div>
+    <span>Show all saved notes</span>
+    <button type="button" id="get">GET</button>
+</div>
+
+<div>
+    <span>Add new note</span>
+    <button type="button" id="post">POST</button>
+    <input type="text" placeholder="create note" id="post-input">
+</div>
+
+<div>
+    <span>Delete note</span>
+    <button type="button" id="delete">DELETE</button>
+    <input type="number" id="delete-input" placeholder="Enter note ID">
+</div>
+
+</div>
+
+<div class="main-2">
+    <span>saved notes</span>
+    <div id="list"></div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</html>
